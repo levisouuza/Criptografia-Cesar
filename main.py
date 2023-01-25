@@ -4,8 +4,8 @@ import time
 
 path_answer = '/home/levi/PycharmProjects/PyFinance/venv/include/Challenge/answer.json'
 answer = '/home/levi/PycharmProjects/PyFinance/venv/include/Challenge/answer.json'
-input = 'https://api.codenation.dev/v1/challenge/dev-ps/generate-data?token=36fcccf1f3177ed1742363574a17c3b4190e8b19'
-output = 'https://api.codenation.dev/v1/challenge/dev-ps/submit-solution?token=36fcccf1f3177ed1742363574a17c3b4190e8b19'
+input = ''
+output = ''
 
 #função que realizará a extração dos dados da Codenation via json.
 support.extract_json(input, answer)
